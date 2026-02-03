@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pastebin-Lite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <h2>Pastebin<span>Lite</span></h2>
+    </div>
+
+    <div class="container">
+        <h3>Create new paste</h3>
+
+        <textarea id="content" rows="10" placeholder="Write here"></textarea>
+
+        <br><br>
+
+        <input id="ttl" placeholder="Expiry (seconds)">
+        <input id="views" placeholder="Max views">
+
+        <br><br>
+
+        <!-- ✅ FUNCTION NAME FIXED -->
+        <button onclick="createPaste()">Paste</button>
+    </div>
+
+    <!-- ✅ JS FILE ONLY -->
+    <script src="script.js"></script>
+
+</body>
+</html>

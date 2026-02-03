@@ -1,0 +1,12 @@
+{
+    "name": "pastebin-lite-node",
+    "version": "1.0.0",
+    "description":"Pastebin Lite built using Node.js,Html ,Css and Javascript",
+    "main": "server.js",
+    "scripts": {
+     "start":   "node server.js"
+
+},
+"author":"Sakshi",
+"license":"MIT"
+}
